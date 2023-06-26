@@ -170,9 +170,7 @@
 	card_ctrl = <0x0>;
 	card_high_speed = <0x1>;
 	card_line = <0x4>;
-	/*
 	pinctrl-0 = <&sdc0_pins_a>;
-	*/
 };
 
 &card2_boot_para {  /* Avoid dtc compiling warnings. @TODO: Developer should modify this to the actual value */
